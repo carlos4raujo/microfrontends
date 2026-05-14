@@ -5,7 +5,7 @@ import Home from '../Home'
 describe('Home', () => {
   it('renders the heading', () => {
     render(<Home />)
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('🏠 Home MFE')
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('🏠 Home')
   })
 
   it('renders the description mentioning mfe-home', () => {
