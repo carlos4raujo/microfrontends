@@ -3,7 +3,7 @@ import { Button } from '@repo/ui'
 export default function Dashboard() {
   return (
     <div>
-      <h1>📊 Dashboard MFE</h1>
+      <h1>📊 Dashboard</h1>
       <p>
         This component is exposed via Module Federation from <code>mfe-dashboard</code>.
       </p>

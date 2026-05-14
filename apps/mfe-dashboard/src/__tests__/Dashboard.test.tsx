@@ -5,7 +5,7 @@ import Dashboard from '../Dashboard'
 describe('Dashboard', () => {
   it('renders the heading', () => {
     render(<Dashboard />)
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('📊 Dashboard MFE')
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('📊 Dashboard')
   })
 
   it('renders the description mentioning mfe-dashboard', () => {
